@@ -1,0 +1,74 @@
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir.ttf");
+}
+:root{
+    --color-primary : #c5e3ff;
+    --color-secondary :  #54515161;
+    --color-mylight-gray: rgba(137, 131, 131, 0.468);
+
+    
+}
+*{
+    font-family: vazir;
+}
+
+.green-nav{
+    background: #c7e4cf83;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#service{
+    color: rgb(63, 196, 116);
+}
+#lorem-service{
+    margin: 0 10%;
+    font-size: medium;
+}
+.services-cards{
+    cursor: context-menu;
+    margin-top: 10%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1% 2% 0 1%;
+    margin: 2% 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+.service-card img{
+    width: 70px;
+    border-radius: 80px 40px 40px 80px;
+    border: white solid 1px;
+    padding: 5px;
+}
+.service-card p{
+    font-size: medium;
+}
+.service-card h4{
+    padding: 5px;
+}
+.service-card-text{
+    margin-top: 10%;
+}
+.service-card:hover {
+    transition: all .4s ease-in-out;
+    background: #19CE67;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+.service-card:hover h4{
+    border-bottom: solid white 1px ;
+    width: fit-content;
+}
