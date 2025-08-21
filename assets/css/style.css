@@ -10,65 +10,63 @@
     
 }
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: vazir;
+    list-style: none;
+    text-decoration: none !important;
 }
 
-.green-nav{
-    background: #c7e4cf83;
+.nav-green{
+    background: #F4F9FD;
+    
 }
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.f-nav-icon-li{
+    background: rgb(222,245,238);
 }
-#service{
-    color: rgb(63, 196, 116);
+.nav-icon-2{
+    color: #5CCE67;
+
 }
-#lorem-service{
-    margin: 0 10%;
-    font-size: medium;
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
-.services-cards{
-    cursor: context-menu;
-    margin-top: 10%;
-    padding: 0 10%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.nav-link:hover, .nav-link:focus{
+    color: #5CCE67 !important;
 }
-.service-card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 1% 2% 0 1%;
-    margin: 2% 0;
+
+.dropdown-menu{
+    position: relative;
+    left: 0px !important;
+    top: 40px;
+    border: none !important;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: #5CCE67 solid 3px !important;
+
+}
+.dropdown-item:hover{
+    color: #5CCE67 !important;
+    background: white !important;
+}
+
+.service-card{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 18rem !important;
+    height: 10rem;
+    padding: 20px 10px;
 }
 .service-card img{
-    width: 70px;
-    border-radius: 80px 40px 40px 80px;
-    border: white solid 1px;
+    width: 18%;
     padding: 5px;
+    border: #F4F9FD solid 1.5px;
+    border-radius: 90% 50% 65% 40%;
+    
 }
-.service-card p{
-    font-size: medium;
-}
-.service-card h4{
-    padding: 5px;
-}
-.service-card-text{
-    margin-top: 10%;
-}
-.service-card:hover {
-    transition: all .4s ease-in-out;
-    background: #19CE67;
+.service-card:hover{
+    background-color: rgb(25,206,103);
+    transition: all .3s ease-in-out;
     color: #fff;
-    position: relative;
-    bottom: 10px;
-}
-.service-card:hover h4{
-    border-bottom: solid white 1px ;
-    width: fit-content;
 }

@@ -3,214 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fovia</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <style>
-        *{
-            list-style: none;
-            text-decoration: none !important;
-        }
-        .call-email{
-            color: #000;
-        }
-        .call-email:hover{
-            color: rgb(63, 196, 116);
-        }
-        .f-nav-icon-li{
-            background: rgb(63, 196, 116);
-        }
-        .f-nav-icon-li:hover{
-            position: relative;
-            bottom: 5px;
-            background: rgba(101, 216, 147, 0.542);
-        }
-        .f-nav-icon-link-1{
-            background: rgba(159, 224, 185, 0.633);
-            color: rgb(63, 196, 116);
-            width: 30px !important;
-            height: 30px !important;
-            padding: 2% 0;
-            transition: all .3s;
-            border-radius: 50px;
-        }
-        .icons-text-h:hover .f-nav-icon-link-1{
-            background:  rgb(63, 196, 116);
-            color: #fff;
-        }
-        .btttt{
-            background: var(--color-mylight-gray);
-            height: fit-content;
-            width: fit-content;
-            margin: 25% 5%;
-            padding: 10px;
-            border-radius: 50px;
-        }
-        .btttt:hover{
-            background: var(--color-secondary);
-        }
-        .slide-text{
-            margin-bottom: 10%;
-        }
-        .dropdown-toggle:hover {
-            color: rgb(63, 196, 116);
-        }
-        .dropdown-toggle:focus {
-            color: rgb(63, 196, 116);
-        }
-        .header-drp-menu{
-            border: none;
-            border-top: 4px solid rgb(63, 196, 116);
-        }
-        .header-drp-item{
-            padding-right: 10%;
-            border-bottom: #c6bcbc solid 1px;
-        }
-        .slider-visit-btn{
-            width: 200px;
-        }
-        .slider-visit-btn:hover{
-            background: #000;
-            color: #fff;
-            transition: all .2s;
-        }
-        .header-drp-item:hover , .header-item:hover{
-            color: rgb(63, 196, 116);
-        }
-        .header-home{
-            color: rgb(63, 196, 116) !important;
-        }
-        @media screen and (max-width:1000px){
-
-            .slide-text p{
-                font-size: medium;
-            }
-            .slider-visit-btn{
-                width: fit-content;
-            }
-            
-            .call-us-btn{
-                display: none !important;
-            }
-            .slide-text{
-                margin-bottom: 8%;
-            }
-            .services-cards{
-                padding: 0 5% !important;
-            }
-        }
-        @media screen and (max-width:1200px){
-            .services-cards{
-                padding: 0 18%;
-            }
-            .service-card{
-                width: 45%;
-                align-items: center;
-            }
-            .service-card img{
-                border-radius: 30px;
-            }
-        }
-        @media screen and (max-width: 576px){
-            .green-nav{
-                font-size: small;
-            }
-            .icons-text-h{
-                text-align: center;
-            }
-            .logo{
-                width: 60%;
-            }
-            .icons-text-h{
-                margin-bottom: 5px;
-            }
-            .slide-text h1 ,h5{
-                font-size: smaller;
-            }
-            .slide-text p{
-                font-size: xx-small;
-            }
-            .slide-text{
-                margin-bottom: 0;
-            }
-            .btttt{
-                display: none;
-            }
-            .slider-btn-div{
-                margin-top: 0 !important;
-            }
-            .slider-visit-btn{
-                font-size: smaller;
-            }
-            #lorem-service{
-                font-size: small;
-            }
-            .services-cards{
-                padding: 8% !important;
-            }
-            .service-card{
-                width: fit-content;
-            }
-            .service-card p{
-                font-size: small;
-            }
-            .service-card:hover {
-                position: relative;
-                bottom: 0px;
-            }
-        }
-
-    </style>
-
 </head>
 <body dir="rtl">
+    
+        <!-- the light green nav start -->
 
-    <!-- header-start -->
-    <!-- the light green nav start -->
-
-    <div class="navbar d-flex green-nav">
-        <ul class="nav ms-auto me-auto d-flex">
-            <li class="nav-item icons-text-h ms-5">
+    <nav class="navbar px-md-5 d-flex justify-content-around nav-green">
+        <ul class="nav mx-auto d-flex">
+            <li class="nav-item ms-5">
                 <i class="far fa-clock f-nav-icon-link-1"></i>
                 دوشنبه تا جمعه از ساعت 09:00 تا 19:00
             </li>
-            <li class="nav-item icons-text-h ms-5">
+            <li class="nav-item ms-5">
                 <i class="fas fa-phone-alt f-nav-icon-link-1"></i>
                 تماس بگیرید:
                 <a class="call-email" href="tel:+021-12345678">12345678-021</a>
             </li>
-            <li class="nav-item icons-text-h">
+            <li class="nav-item ms-5">
                 <i class="far fa-paper-plane f-nav-icon-link-1 "></i>
                 <a class="call-email  " href="#">
                     emailexample@example.com
                 </a>
             </li>
         </ul>
-
-        <ul class="d-flex align-items-center justify-content-between nav-icons  w-auto m-auto">
+        <div class="d-flex">
             <li class="p-1 ms-3 rounded-5 f-nav-icon-li">
                 <a class="f-nav-icon text-light" href="#">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-linkedin-in nav-icon-2"></i>
                 </a>
             </li>
             <li class="p-1 ms-3 rounded-5 f-nav-icon-li">
                 <a class="f-nav-icon text-light" href="#">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter nav-icon-2"></i>
                 </a>
             </li>
             <li class=" p-1 ms-3 rounded-5 f-nav-icon-li">
                 <a class="f-nav-icon text-light" href="#">
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f nav-icon-2"></i>
                 </a>
             </li>
             <li class="p-1 ms-3 rounded-5 f-nav-icon-li">
                 <a class="f-nav-icon-link-2 text-light" href="#">
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram nav-icon-2"></i>
                 </a>
             </li>
-        
             <!-- choose language -->
             <select name="select-lang" id="select-lannng" class="bg-light border pe-2 rounded-4 text-black">
                 <option class="select-lang-op" value="1">فا</option>
@@ -218,12 +59,11 @@
                 <option class="select-lang-op" value="3">GE</option>
                 <option class="select-lang-op" value="4">SPA</option>
             </select>
-        
-        </ul>
-    </div>
+        </div>
+
+    </nav>
 
     <!-- the light green nav end -->
-    <!-- the sticky nav start -->
 
     <nav class="navbar navbar-expand-lg bg-white border border-bottom-5 sticky-top">
         <div class="container-fluid d-flex justify-content-b pe-5 ps-5">
@@ -301,9 +141,12 @@
             </div>
         </div>
     </nav>
+    
 
 
-    <!-- header-end -->
+
+
+
 
     <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
@@ -385,49 +228,131 @@
     </button>
     </div>
 
-    <!-- بخش خدمات -->
 
-    <div class="services mt-5 ">
-        <p id="service">خدمات</p>
+
+    
+    
+    <div class="services my-5 d-flex flex-column align-items-center ">
+        <p id="service" class=" text-success">خدمات</p>
         <h2>خدمات ما</h2>
         <p id="lorem-service">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
     </div>
-    <div class="services-cards">
-        <div class="service-card">
+    <div class="services-cards mx-5 d-flex justify-content-center gap-3 row row-cols-1 row-cols-sm-2  row-cols-lg-4">
+        <div class="service-card col ">
             <img src="./assets/images/ScreenShot Tool -20250818160552.png" alt="">
-            <div class="service-card-text">
                 <h4>مراقبت پیشفته</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
-            </div>
+            
         </div>
-        <div class="service-card">
+        <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160505.png" alt="">
-            <div class="service-card-text">
                 <h4>طب داخلی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
-            </div>
+            
         </div>
-        <div class="service-card">
+        <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160310.png" alt="">
-            <div class="service-card-text">
                 <h4>گوش ، حلق بینی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
-            </div>
+            
         </div>
-        <div class="service-card">
+        <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160201.png" alt="">
-            <div class="service-card-text">
                 <h4>چشم پزشکی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
-            </div>
+            
         </div>
     </div>
 
-    
 
 
 
+    <div class="w-100 row row-cols-1 row-cols-lg-2 my-5">
+        <img src="./assets/images/about-img1.jpg" alt="">
+        <div>
+            <p>درباره ی ما</p>
+            <h2>واقعیت هایی درمورد کلینیک فوویا</h2>
+            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+            <ul>
+                <li><i class="fa fa-check"></i></li>
+                <li><i class="fa fa-check"></i></li>
+                <li><i class="fa fa-check"></i></li>
+                <li><i class="fa fa-check"></i></li>
+            </ul>
+        
+        </div>
+    </div>
 
+
+
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+    <p>x</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js" integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
