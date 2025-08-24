@@ -22,7 +22,6 @@ body{
 
 .nav-green{
     background: #F4F9FD;
-    height: 8vh;
     font-size: small;
 }
 .f-nav-icon-li{
@@ -30,7 +29,6 @@ body{
 }
 .nav-icon-2{
     color: #5CCE67;
-
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -39,9 +37,8 @@ body{
     color: #5CCE67 !important;
 }
 .nav-fixeddd{
-    border-radius: 50px;
     margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 rgba(119, 113, 113, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(209, 204, 204), 0 6px 20px 0 rgb(190, 186, 186);
 }
 .call-us-btn{
     background: rgb(25,206,103);
@@ -56,7 +53,7 @@ body{
     top: 40px;
     border: none !important;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgb(209, 204, 204), 0 6px 20px 0 rgb(190, 186, 186);
     border-top: #5CCE67 solid 3px !important;
 
 }
@@ -64,14 +61,21 @@ body{
     color: #5CCE67 !important;
     background: white !important;
 }
+.slider-visit-btn{
+    font-size: small !important;
+}
 
 .service-card{
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 18rem !important;
-    height: 10rem;
+    height: 12rem;
     padding: 20px 10px;
     font-size: small;
+}
+.service-card:hover{
+    position: relative;
+    bottom: 10px;
 }
 .service-card img{
     width: 18%;
@@ -116,6 +120,22 @@ body{
 .slide-texts{
     top: 50%;
 }
+.world{
+    background-image: url(../images/ScreenShot\ Tool\ -20250824123309\ \(1\).png);
+    width: 100%;
+    height: 50vh;
+    margin: 0 !important;
+
+}
+.world-icon-top{
+    color: #5CCE67;
+    width: fit-content;
+    height: 80px;
+}
+.world h3{
+    color: white;
+}
+
 @media screen and (max-width: 576px){
     .logo{
         width: 100px;
@@ -138,5 +158,11 @@ body{
     }
     #lorem-service{
         padding: 0 20px;
+    }
+    .service-card:hover{
+        bottom: 0;
+    }
+    .world-icon-top{
+        height: 40px;
     }
 }
