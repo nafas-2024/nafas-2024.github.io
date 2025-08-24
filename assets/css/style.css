@@ -24,7 +24,34 @@ body{
     background: #F4F9FD;
     font-size: small;
 }
+.f-nav-icon-link-1{
+    color: #5CCE67;
+    background-color: #95e69c69;
+    padding: 5px;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    transition: all .5s;
+    
+}
+.green-item a{
+    color: #000;
+}
+.green-item:hover .f-nav-icon-link-1{
+    background: #5CCE67;
+    color: #fff;
+}
+.f-nav-icon-li:hover{
+    position: relative;
+    bottom: 5px;
+    background-color: #5CCE67;
+}
+.f-nav-icon-li:hover .nav-icon-2{
+    color: #fff;
+}
 .f-nav-icon-li{
+    transition: all .5s;
     background: rgb(222,245,238);
 }
 .nav-icon-2{
@@ -37,8 +64,8 @@ body{
     color: #5CCE67 !important;
 }
 .nav-fixeddd{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 rgb(209, 204, 204), 0 6px 20px 0 rgb(190, 186, 186);
+    /* margin: 10px 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .call-us-btn{
     background: rgb(25,206,103);
@@ -64,7 +91,9 @@ body{
 .slider-visit-btn{
     font-size: small !important;
 }
-
+.lorem-service{
+    text-align: center;
+}
 .service-card{
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -75,7 +104,7 @@ body{
 }
 .service-card:hover{
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
 }
 .service-card img{
     width: 18%;
@@ -116,7 +145,9 @@ body{
 .performance-items:hover .performance-i{
     background: rgb(25,206,103);
     color: white;
+    border-radius: 100px 20px 50px 80px !important;
 }
+
 .slide-texts{
     top: 50%;
 }
@@ -135,7 +166,66 @@ body{
 .world h3{
     color: white;
 }
+.khadamat{
+    background: #eff6ffb3;
+}
 
+.khadamt-icon{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    color: #5CCE67;
+    border-radius: 100px;
+    box-shadow: 0 1px 5px 0 rgb(166, 203, 219), 0 6px 15px 0 rgb(234, 234, 234);
+    background: white;
+}
+
+.khadamat-card{
+    background: #fff;
+    width: 22.5rem !important;
+    height: 15rem;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+}
+.khadamat-p{
+    color: #a09d9d;
+    font-size: small;
+    padding: 5px 0;
+    text-align: center;
+}
+.khadamat-card h4{
+    padding: 10px 0;
+}
+.khadamat-card a{
+    color: #5CCE67;
+}
+.khadamat-btn{
+    width: fit-content !important;
+    background-color: rgb(25,206,103);
+    color: white;
+    border: none;
+    transition: all .4s;
+}
+.angle-left{
+    background: #d6d6d68e;
+    border-radius: 100px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+.khadamat-btn:hover{
+    background: #000;
+}
+.khadamat-card:hover {
+    background: rgb(25,206,103);
+    color: #fff;
+}
+.khadamat-card:hover .khadamat-p{
+    color: #fff;
+}
+.khadamat-card:hover .khadamat-a{
+    color: #fff;
+}
 @media screen and (max-width: 576px){
     .logo{
         width: 100px;
@@ -162,7 +252,25 @@ body{
     .service-card:hover{
         bottom: 0;
     }
+    .khadamat-card{
+        width: 25rem !important;
+        height: 13rem;
+    }
     .world-icon-top{
         height: 40px;
+    }
+}
+@media screen and (min-width:576px){
+    .khadamat-card{
+        width: 15rem !important;
+        margin: 0 20px !important;
+    }
+}
+@media screen and (min-width: 992px){
+    .khadamat-card{
+        width: 25rem !important;
+    }
+    .khadamat-card p{
+        text-align: start
     }
 }
