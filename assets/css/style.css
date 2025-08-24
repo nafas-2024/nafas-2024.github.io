@@ -10,17 +10,20 @@
     
 }
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: vazir;
     list-style: none;
     text-decoration: none !important;
 }
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 .nav-green{
     background: #F4F9FD;
-    
+    height: 8vh;
+    font-size: small;
 }
 .f-nav-icon-li{
     background: rgb(222,245,238);
@@ -35,7 +38,18 @@
 .nav-link:hover, .nav-link:focus{
     color: #5CCE67 !important;
 }
-
+.nav-fixeddd{
+    border-radius: 50px;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(119, 113, 113, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.call-us-btn{
+    background: rgb(25,206,103);
+    border: none;
+    width: 100px;
+    height: 45px;
+    font-size: small;
+}
 .dropdown-menu{
     position: relative;
     left: 0px !important;
@@ -52,16 +66,17 @@
 }
 
 .service-card{
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 18rem !important;
     height: 10rem;
     padding: 20px 10px;
+    font-size: small;
 }
 .service-card img{
     width: 18%;
     padding: 5px;
-    border: #F4F9FD solid 1.5px;
+    border: white solid 1.5px;
     border-radius: 90% 50% 65% 40%;
     
 }
@@ -69,4 +84,59 @@
     background-color: rgb(25,206,103);
     transition: all .3s ease-in-out;
     color: #fff;
+}
+.service-card:hover .srvice-h4{
+    border-bottom: #c5e3ff solid 1px !important;
+    width: fit-content;
+}
+.about-us-div{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.about-us-p{
+    font-size: small;
+    padding: 2% 8%;
+    color: #a09d9d;
+}
+.performance-i{
+    width: 20px;
+    height: 20px;
+    color: #8ccc92;
+    transition: all .5s ease;
+    box-shadow: 0 1px 10px 0 rgb(166, 203, 219), 0 6px 25px 0 rgb(108, 222, 154);
+
+}
+.performance-items{
+    border-radius: 10px;
+}
+.performance-items:hover .performance-i{
+    background: rgb(25,206,103);
+    color: white;
+}
+.slide-texts{
+    top: 50%;
+}
+@media screen and (max-width: 576px){
+    .logo{
+        width: 100px;
+    }
+    .about-us-p , .about-us-2 h5{
+        font-size: x-small ;
+        padding: 0;
+    }
+    .about-us-items{
+        font-size: small;
+    }
+    .carousel-caption{
+        font-size: x-small;
+    }
+    .slide-texts{
+        top: 0;
+    }
+    .carousel-caption h1 , .carousel-caption h5{
+        font-size: medium;
+    }
+    #lorem-service{
+        padding: 0 20px;
+    }
 }

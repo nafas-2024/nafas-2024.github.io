@@ -65,7 +65,7 @@
 
     <!-- the light green nav end -->
 
-    <nav class="navbar navbar-expand-lg bg-white border border-bottom-5 sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white border border-bottom-5 sticky-top nav-fixeddd">
         <div class="container-fluid d-flex justify-content-b pe-5 ps-5">
             <a class="navbar-brand" href="#">
                 <img class="logo" src="./assets/images/Screenshot 2025-08-08 at 22-09-10 پیشنمایش قالب Fovia پوسته HTML پزشکی و کلینیک بهداشت درمان فوویا راست چین.png" alt="logo">
@@ -136,7 +136,7 @@
                     </li>
                 </ul>
                 <div class="d-flex me-auto mb-2 mb-lg-0 ">
-                    <button class="btn btn-outline-success call-us-btn" type="submit">تماس بگیرید</button>
+                    <button class="rounded-pill p-2 text-light call-us-btn">تماس بگیرید</button>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
         <img src="./assets/images/main-banner1.jpg" class="d-block w-100" alt="Doctor 1">
-        <div class="carousel-caption d-flex flex-column align-items-start slide-text">
+        <div class="carousel-caption slide-texts d-flex flex-column align-items-start slide-text">
             <h5 class="text-success bg-white bg-opacity-75 p-1 rounded ">بهترین خدمات درمانی</h5>
             <h1 class="fw-bold text-dark bg-white bg-opacity-75 p-2 rounded ">فوویا بیمارستان تخصصی</h1>
             <p class="text-dark bg-white bg-opacity-75 p-2 rounded ">
@@ -240,25 +240,25 @@
     <div class="services-cards mx-5 d-flex justify-content-center gap-3 row row-cols-1 row-cols-sm-2  row-cols-lg-4">
         <div class="service-card col ">
             <img src="./assets/images/ScreenShot Tool -20250818160552.png" alt="">
-                <h4>مراقبت پیشفته</h4>
+                <h4 class="srvice-h4">مراقبت پیشفته</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
             
         </div>
         <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160505.png" alt="">
-                <h4>طب داخلی</h4>
+                <h4 class="srvice-h4">طب داخلی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
             
         </div>
         <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160310.png" alt="">
-                <h4>گوش ، حلق بینی</h4>
+                <h4 class="srvice-h4">گوش ، حلق بینی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
             
         </div>
         <div class="service-card col">
             <img src="./assets/images/ScreenShot Tool -20250818160201.png" alt="">
-                <h4>چشم پزشکی</h4>
+                <h4 class="srvice-h4">چشم پزشکی</h4>
                 <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می‌گیرد.</p>
             
         </div>
@@ -267,19 +267,62 @@
 
 
 
-    <div class="w-100 row row-cols-1 row-cols-lg-2 my-5">
-        <img src="./assets/images/about-img1.jpg" alt="">
-        <div>
-            <p>درباره ی ما</p>
+    <div class="row row-cols-1 row-cols-lg-2 my-5 about-us-div ">
+        <img class="p-5 p-lg-0" src="./assets/images/about-img1.jpg" alt="">
+        <div class="fs-8 d-flex flex-column align-items-center align-items-lg-start pt-4">
+            <p class="text-success pb-2">درباره ی ما</p>
             <h2>واقعیت هایی درمورد کلینیک فوویا</h2>
-            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-            <ul>
-                <li><i class="fa fa-check"></i></li>
-                <li><i class="fa fa-check"></i></li>
-                <li><i class="fa fa-check"></i></li>
-                <li><i class="fa fa-check"></i></li>
+            <p class="about-us-p mx-5">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+            <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-1 p-2 ">
+                <li class="about-us-items"><img src="./assets/images/ScreenShot Tool -20250809180843 (1).png" alt="تیک">مهارت هایی برای به دست آوردن نتیجه بهتر</li>
+                <li class="about-us-items"><img src="./assets/images/ScreenShot Tool -20250809180843 (1).png" alt="تیک">مهارت هایی برای ارتباط موثر</li>
+                <li class="about-us-items"><img src="./assets/images/ScreenShot Tool -20250809180843 (1).png" alt="تیک">ایجاد فرصت شغلی</li>
+                <li class="about-us-items"><img src="./assets/images/ScreenShot Tool -20250809180843 (1).png" alt="تیک">یک محیط کار مناسب</li>
             </ul>
-        
+            <a href="#" class="btn btn-success rounded-pill mt-2 mt-lg-4 px-4 py-3">
+                ویزیت کنید
+                <i class="fa fa-angle-left"></i>
+            </a>
+            
+        </div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-lg-2 py-3 about-us-div ">
+        <img class="p-5 p-lg-0 order-0 order-lg-2" src="./assets/images/ScreenShot Tool -20250823231943.png" alt="">
+        <div class="pe-lg-5 d-flex flex-column align-items-center align-items-lg-start pt-4">
+            <p class="text-success pb-2">تخصص ما</p>
+            <h2 class=" text-center text-lg-end">اطلاعات بهتر ، سلامتی بهتر</h2>
+            <p class="about-us-p text-center text-lg-end ms-5 ">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+            <ul class="row row-cols-2 row-cols-md-2 about-us-2">
+                <li class="performance-items d-flex flex-column align-items-lg-start align-items-center py-3 ">
+                    <i class="fas fa-user-md ms-1 mb-4 p-2 rounded-pill performance-i"></i>
+                    <h5>کارمندان حرفه ای</h5>
+                    <p class="about-us-p text-center">
+                        لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.
+                    </p>
+                </li>
+                <li class="performance-items d-flex flex-column align-items-lg-start align-items-center py-3 ">
+                    <i class="fas fa-user-md ms-1 mb-4 p-2 rounded-pill performance-i"></i>
+                    <h5>مراقبت از نوزاد</h5>
+                    <p class="about-us-p text-center">
+                        لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.
+                    </p>
+                </li>
+                <li class="performance-items d-flex flex-column align-items-lg-start align-items-center py-3 ">
+                    <i class="fas fa-user-md ms-1 mb-4 p-2 rounded-pill performance-i"></i>
+                    <h5>آزمایش ها</h5>
+                    <p class="about-us-p text-center">
+                        لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.
+                    </p>
+                </li>
+                <li class="performance-items d-flex flex-column align-items-lg-start align-items-center py-3 ">
+                    <i class="fas fa-user-md ms-1 mb-4 p-2 rounded-pill performance-i"></i>
+                    <h5 class="fs-9">دندانپزشکی</h5>
+                    <p class="about-us-p text-center">
+                        لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد.
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
 
